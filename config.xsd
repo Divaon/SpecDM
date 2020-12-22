@@ -1,13 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
-  <xsd:element name="DataOptions">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element name="ConnectionPath" type="xsd:string" />
-        <xsd:element name="SourcePath" type="xsd:string" />
-        <xsd:element name="TargetPath" type="xsd:string" />
-        <xsd:element name="LoggerConnectionPath" type="xsd:string" />
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-</xs:schema>
+{
+  "ConnectionPath": "Data Source=DESKTOP-D1UV9QM;Initial Catalog=userdb;Integrated Security=True",
+  "LoggerConnectionPath": "Data Source=DESKTOP-D1UV9QM;Initial Catalog=ApplicationInsights;Integrated Security=True",
+  "SourcePath": "E:\\sourcecat\\confvr",
+  "TargetPath": "E:\\sourcecat\\conf"
+}
+
